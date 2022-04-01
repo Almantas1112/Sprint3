@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is sprint number 3">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <title>Git sprint</title>
+</head>
+<body>
+    <header>Welcome to my shopping Site!</header>
+    <nav>
+        <div class="menu">
+            <a href="#" style="color: #c1f8cf83;">shop</a>
+            <a href="./offers.html">offers</a>
+            <a href="./deal.html">deal of the day</a>
+        </div>
+        <img src="./img/logo.png" alt="logo" id="logo">
+        <div class="agent">
+            <a href="./account.html" target="popup" onclick="window.open('./account.html','popup','width=400,height=400,scrollbars=no,resizable=no');">
+                <img src="./img/account.png" alt="my account">
+            </a>
+            <a href="./cart.html" target="popup" onclick="window.open('./cart.html','popup','width=400,height=400');">
+                <img src="./img/cart.png" alt="cart">
+            </a>
+            <form action="#">
+                <input type="text" id="search" name="search" placeholder="Search here">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </nav>
+    <section>
+        <div class="product oculus">
+            <img src="./img/oculus.jpg" alt="Oculus quest">
+            <pre>Oculus quest 2</pre>
+            <p>HDD: 128gb</p><p>Brand new!</p>
+            <p style="font-weight: bold; color: black;">419 €</p>
+            <button type="button" onclick="alert('Out of stock!')">buy now!</button>
+        </div>
+        <div class="product playstation5">
+            <img src="./img/playstation5.jpg" alt="Playstation 5">
+            <pre>Playstation 5</pre>
+            <p>SSD: 825gb</p><p>Ray Tracing</p><p>4K Resolution</p><p>HDR Technology</p>
+            <p style="font-weight: bold; color: black;">900 €</p>
+            <button type="button" onclick="alert('Out of stock!')">buy now!</button>
+        </div>
+        <div class="product playstation4">
+            <img src="./img/playstation4.jfif" alt="Playstation 4">
+            <pre>Playstation 4</pre>
+            <p>HDD: 500gb</p><p>Slim edition</p><p>One controller</p>
+            <p style="font-weight: bold; color: black;">250 €</p>
+            <button type="button" onclick="alert('Out of stock!')">buy now!</button>
+        </div>
+        <div class="product xboxonex">
+            <img src="./img/xboxonex.jpg" alt="Xbox one X">
+            <pre>Xbox one X</pre>
+            <p>HDD: 1Tb</p><p>Black edition</p><p>One controller</p>
+            <p style="font-weight: bold; color: black;">300 €</p>
+            <button type="button" onclick="alert('Out of stock!')">buy now!</button>
+        </div>
+        <div class="product xboxseriesx">
+            <img src="./img/xboxseriesx.jpg" alt="Xbox series x">
+            <pre>Xbox series x</pre>
+            <p>HDD: 1Tb</p><p>One controller</p>
+            <p style="font-weight: bold; color: black;">640 €</p>
+            <button type="button" onclick="alert('Out of stock!')">buy now!</button>
+        </div>
+        <div class="product xboxseriess">
+            <img src="./img/xboxseries.jpeg" alt="Xbox series s">
+            <pre>Xbox series s</pre>
+            <p>SSD: 500gb</p><p>One controller</p>
+            <p style="font-weight: bold; color: black;">310 €</p>
+            <button type="button" onclick="alert('Out of stock!')">buy now!</button>
+        </div>
+    </section>
+    <footer>This site created for education porpuses</footer>
+</body>
+</html>

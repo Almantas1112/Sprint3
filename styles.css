@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #533E85;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #C1F8CF;
+  padding-bottom: 8rem;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  background-color: #4FD3C4;
+  padding: 1rem 0;
+}
+
+nav {
+  display: inline-flex;
+  width: 100%;
+  background-color: #488FB1;
+  padding: 1rem 0;
+}
+nav img#logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 2rem;
+}
+nav .menu {
+  width: 50%;
+}
+nav .menu a {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #C1F8CF;
+  margin-left: 7rem;
+  text-align: center;
+  line-height: 5rem;
+}
+nav .menu a:hover {
+  color: #c1f8cf83;
+}
+nav .agent {
+  display: inline-flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+  margin-right: 5rem;
+}
+nav .agent img {
+  max-height: 40px;
+  max-width: 40px;
+  margin-right: 2rem;
+}
+nav .agent img:hover {
+  border-bottom: 0.2rem solid #C1F8CF;
+  border-radius: 1rem;
+  margin-top: 0.2rem;
+}
+nav .agent input {
+  height: 4rem;
+  width: 20rem;
+  font-size: 2rem;
+  border-radius: 2rem;
+  background-color: #4890b160;
+  color: #C1F8CF;
+}
+nav .agent input:not(:first-child) {
+  width: 8rem;
+  height: 4rem;
+}
+nav .agent input::-moz-placeholder {
+  color: #C1F8CF;
+  text-align: center;
+}
+nav .agent input:-ms-input-placeholder {
+  color: #C1F8CF;
+  text-align: center;
+}
+nav .agent input::placeholder {
+  color: #C1F8CF;
+  text-align: center;
+}
+nav .agent input[type=text] {
+  padding: 0 1rem 0 1rem;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #488FB1;
+  padding: 1rem 0;
+}
+
+.credentials {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 2rem;
+  padding: 1rem 1rem 1rem 1rem;
+  max-width: 60%;
+  margin: 3rem auto 0 auto;
+  background-color: #4890b136;
+}
+.credentials a img {
+  position: static;
+  border: 0.1rem solid black;
+  border-radius: 3rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.123);
+  margin: -3rem 0rem 0rem 21.5rem;
+}
+.credentials a img:hover {
+  border: 0.1rem solid rgba(0, 0, 0, 0.212);
+  background-color: rgba(0, 0, 0, 0.212);
+}
+.credentials img {
+  margin: 0 auto 0 auto;
+  max-width: 50px;
+  max-height: 50px;
+}
+.credentials form {
+  flex-direction: column;
+  width: 100%;
+  margin-top: 3rem;
+}
+.credentials form input {
+  min-width: 25%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #4890b160;
+  color: #C1F8CF;
+}
+.credentials form input:not(:first-child) {
+  margin-top: 3rem;
+}
+.credentials form input[type=submit] {
+  display: flex;
+  min-width: 7%;
+  padding: 0.5rem;
+  justify-content: center;
+}
+.credentials form input[type=submit]:hover {
+  background-color: #c1f8cf83;
+}
+.credentials form input::-moz-placeholder {
+  color: #C1F8CF;
+}
+.credentials form input:-ms-input-placeholder {
+  color: #C1F8CF;
+}
+.credentials form input::placeholder {
+  color: #C1F8CF;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 2rem;
+  justify-content: space-evenly;
+  row-gap: 2rem;
+}
+section .product {
+  background-color: #488FB1;
+  text-align: center;
+  width: 100%;
+  padding: 2rem 1rem;
+  border-radius: 2rem;
+}
+section .product img {
+  height: 35rem;
+  width: 40rem;
+}
+section .product pre {
+  font-size: 2rem;
+  letter-spacing: -0.1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section .product p {
+  font-size: 2rem;
+  letter-spacing: -0.1rem;
+  margin-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section .product button {
+  margin-top: 2rem;
+  width: 10rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  border: none;
+  text-align: center;
+  background-color: #4FD3C4;
+}
+section .product button:hover {
+  background-color: #4fd3c356;
+}
+
+section#offer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 2rem;
+  justify-content: space-around;
+  row-gap: 2rem;
+}
+section#offer .product {
+  background-color: #488FB1;
+  text-align: center;
+  width: 100%;
+  padding: 2rem 1rem;
+  border-radius: 2rem;
+}
+section#offer .product img {
+  height: 35rem;
+  width: 40rem;
+}
+section#offer .product pre {
+  font-size: 2rem;
+  letter-spacing: -0.1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section#offer .product p {
+  font-size: 2rem;
+  letter-spacing: -0.1rem;
+  margin-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section#offer .product button {
+  margin-top: 2rem;
+  width: 10rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  border: none;
+  text-align: center;
+  background-color: #4FD3C4;
+}
+section#offer .product button:hover {
+  background-color: #4fd3c356;
+}
+
+section#deal {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 2rem;
+  justify-content: space-around;
+  row-gap: 2rem;
+}
+section#deal .product {
+  background-color: #488FB1;
+  text-align: center;
+  width: 100%;
+  padding: 2rem 1rem;
+  border-radius: 2rem;
+}
+section#deal .product img {
+  height: 35rem;
+  width: 40rem;
+}
+section#deal .product pre {
+  font-size: 2rem;
+  letter-spacing: -0.1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.1rem solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section#deal .product p {
+  font-size: 2rem;
+  letter-spacing: -0.1rem;
+  margin-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section#deal .product button {
+  margin-top: 2rem;
+  width: 10rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  border: none;
+  text-align: center;
+  background-color: #4FD3C4;
+}
+section#deal .product button:hover {
+  background-color: #4fd3c356;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 11rem;
+  justify-content: center;
+  display: flex;
+}/*# sourceMappingURL=styles.css.map */
