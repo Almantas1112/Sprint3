@@ -320,3 +320,76 @@ h1 {
     justify-content: center;
     display: flex;
 }
+
+@media (max-width:1440px){
+    nav {
+        padding: 0.5rem 0;
+        img#logo {
+            display: none;
+        }
+        .menu {
+            a {
+                margin-left: 2rem;
+            }
+        }
+    }
+
+    section, section#offer{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:1024px){
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form{
+        display: none;
+    }
+
+    section, section#offer, section#deal{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width:500px){
+    header{
+        font-size: 2rem;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        .menu, .agent {
+            width: 100%;
+            a{
+                font-size: 1.8rem;
+            }
+        }
+        .agent {
+            justify-content: center;
+            margin-left: 1rem;
+        }
+    }
+    section, section#offer, section#deal{
+        height: 50%;
+        .product{
+            p:not(#price){
+                display: inline-flex;
+                margin-left: 1rem;
+                font-size: 1.3rem;
+            }
+            pre{
+                font-size: 1.5rem;
+            }
+            img{
+                height: 25rem;
+                width: 30rem;
+            }
+        }
+    }
+}
