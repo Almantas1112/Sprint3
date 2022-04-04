@@ -346,8 +346,10 @@ h1 {
         flex-direction: column;
     }
 
-    form{
-        display: none;
+    .agent {
+        form{
+            display: none;
+        }
     }
 
     section, section#offer, section#deal{
