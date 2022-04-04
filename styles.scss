@@ -1,7 +1,7 @@
-$background-color: #533E85;
-$primary-color: #488FB1;
-$secondary-color: #4FD3C4;
-$text-color: #C1F8CF;
+$background-color: #5CDB95;
+$primary-color: #379683;
+$secondary-color: #05386B;
+$text-color: #EDF5E1;
 $hover-color: #c1f8cf83;
 $search-color: #4890b160;
 $login-form-color: #4890b136;
@@ -209,6 +209,7 @@ section {
             border: none;
             text-align: center;
             background-color: $secondary-color;
+            color: $text-color;
             &:hover{
                 background-color: #4fd3c356;
             }
@@ -346,8 +347,10 @@ h1 {
         flex-direction: column;
     }
 
-    form{
-        display: none;
+    .agent {
+        form{
+            display: none;
+        }
     }
 
     section, section#offer, section#deal{
