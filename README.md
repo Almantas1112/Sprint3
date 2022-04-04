@@ -5,6 +5,8 @@ This site is created for education purposes and I'm still learning, so there mig
 
 Site is about online shopping created with HTML, SCSS and some JS.
 
+Live version - https://almantas1112.github.io/Sprint3/
+
 ## Launching procedure
 1. First of all you have to clone repository use (git clone https://github.com/Almantas1112/Sprint3.git) in your git bash terminal.
 2. Launch your Visual Studio Code.
@@ -15,9 +17,9 @@ Site is about online shopping created with HTML, SCSS and some JS.
 7. Click on "Go Live" button to run live server.
 8. Site should be up and running.
 
-## What is new in Premium version?
+## What is new in Live version?
 
-Premium version is with updated design, that's actually it!
+It is Premium version but, this version is live on Github pages.
 
 ## Creator
 
