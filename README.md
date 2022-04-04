@@ -15,9 +15,9 @@ Site is about online shopping created with HTML, SCSS and some JS.
 7. Click on "Go Live" button to run live server.
 8. Site should be up and running.
 
-## What is new in Premium version?
+## What is new in Live version?
 
-Premium version is with updated design, that's actually it!
+It is Premium version but, this version is live on Github pages.
 
 ## Creator
 
